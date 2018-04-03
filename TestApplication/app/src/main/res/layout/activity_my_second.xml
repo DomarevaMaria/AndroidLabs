@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.masha.testapplication.MySecondActivity">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chooseColor"
+        android:id="@+id/twChooseColor"
+        android:layout_centerHorizontal="true"/>
+
+    <SeekBar
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sbRed"
+        android:progress="255"
+        android:max="255"
+        android:layout_below="@+id/twChooseColor"
+        android:layout_alignParentLeft="true"/>
+
+    <SeekBar
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sbGreen"
+        android:progress="255"
+        android:max="255"
+        android:layout_below="@+id/sbRed"
+        android:layout_centerHorizontal="true"/>
+
+    <SeekBar
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sbBlue"
+        android:progress="255"
+        android:max="255"
+        android:layout_below="@+id/sbGreen"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/twColor"
+        android:layout_below="@+id/sbBlue"
+        android:text="@string/color"
+        android:gravity="center"/>
+
+
+</RelativeLayout>

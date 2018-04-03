@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TestApplication</string>
+    <string name="press">Press button!</string>
+    <string name="button1">Hello</string>
+    <string name="button2">Create color</string>
+    <string name="name">Name</string>
+    <string name="boy">Boy</string>
+    <string name="girl">Girl</string>
+    <string name="chooseInterests">Choose your interests:</string>
+    <string name="music">Music</string>
+    <string name="sport">Sport</string>
+    <string name="serials">Serials</string>
+    <string name="hello">Hello</string>
+    <string name="chooseColor">Choose color</string>
+    <string name="color">Your color!</string>
+</resources>
